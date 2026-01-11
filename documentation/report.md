@@ -1,154 +1,79 @@
-\# CampusConnect Vulnerability Lab – Project Documentation
+# CampusConnect Vulnerability Lab – Project Documentation
 
-
-
-\## 1. Introduction
-
-CampusConnect Vulnerability Lab is a deliberately vulnerable full-stack web
-
-application developed to demonstrate real-world web security vulnerabilities.
-
-The project is inspired by DVWA-style security labs and is designed strictly
-
-for academic and learning purposes.
-
-
+## 1. Introduction
+**CampusConnect Vulnerability Lab** is a deliberately vulnerable full-stack web application built for learning and demonstrating real-world web security vulnerabilities.  
+Inspired by DVWA-style labs, this project helps students understand how insecure coding practices lead to exploitable attack surfaces.
 
 ---
 
+## 2. Objective
+The primary goals of this project are:
 
-
-\## 2. Objective
-
-The main objective of this project is:
-
-\- To understand OWASP Top 10 web vulnerabilities
-
-\- To design a vulnerable web application
-
-\- To demonstrate live exploitation on localhost
-
-\- To understand the importance of secure coding
-
-
+- Understand OWASP Top 10 vulnerabilities
+- Design a vulnerable web application for learning
+- Demonstrate live exploitation techniques on localhost
+- Highlight the importance of secure coding practices
 
 ---
 
+## 3. Technology Stack
 
+### Frontend
+- HTML
+- CSS
+- JavaScript
 
-\## 3. Technology Stack
+### Backend
+- Python (Flask Framework)
 
-
-
-\### Frontend
-
-\- HTML
-
-\- CSS
-
-\- JavaScript
-
-
-
-\### Backend
-
-\- Python (Flask Framework)
-
-
-
-\### Database
-
-\- SQLite
-
-
+### Database
+- SQLite
 
 ---
 
+## 4. Application Modules
+The application includes the following functional modules:
 
-
-\## 4. Application Modules
-
-\- Login Module
-
-\- Dashboard
-
-\- Marks Viewer
-
-\- Discussion Board
-
-\- Admin Panel
-
-
+- **Login Module**
+- **Dashboard**
+- **Marks Viewer**
+- **Discussion Board**
+- **Admin Panel**
 
 ---
 
+## 5. Vulnerabilities Implemented
+This lab intentionally includes multiple vulnerabilities to demonstrate exploitation techniques:
 
-
-\## 5. Vulnerabilities Implemented
-
-
-
-1\. SQL Injection  
-
-2\. Broken Authentication  
-
-3\. Stored Cross-Site Scripting (XSS)  
-
-4\. Reflected Cross-Site Scripting (XSS)  
-
-5\. Insecure Direct Object Reference (IDOR)  
-
-6\. Sensitive Data Exposure  
-
-7\. Security Misconfiguration  
-
-8\. Cross-Site Request Forgery (CSRF – No Protection)
-
-
+1. **SQL Injection (SQLi)**
+2. **Broken Authentication**
+3. **Stored Cross-Site Scripting (XSS)**
+4. **Reflected Cross-Site Scripting (XSS)**
+5. **Insecure Direct Object Reference (IDOR)**
+6. **Sensitive Data Exposure**
+7. **Security Misconfiguration**
+8. **CSRF (No Protection Implemented)**
 
 ---
 
+## 6. Impact Analysis
+These vulnerabilities illustrate how insecure software design can result in:
 
-
-\## 6. Impact Analysis
-
-The vulnerabilities implemented in this project show how insecure coding
-
-practices can lead to:
-
-\- Unauthorized access
-
-\- Data leakage
-
-\- User impersonation
-
-\- Execution of malicious scripts
-
-
+- Unauthorized access
+- Data leakage
+- User impersonation
+- Malicious script execution
+- Privilege escalation
 
 ---
 
-
-
-\## 7. Conclusion
-
-CampusConnect Vulnerability Lab provides hands-on exposure to web application
-
-security testing. It highlights the importance of secure development practices
-
-and helps students understand real-world cyber attacks.
-
-
+## 7. Conclusion
+The *CampusConnect Vulnerability Lab* provides practical, hands-on experience in understanding and exploiting web vulnerabilities.  
+It reinforces the need for secure coding standards and promotes awareness of real-world cyber attack patterns.
 
 ---
 
-
-
-\## 8. Disclaimer
-
-This application is intentionally vulnerable and must not be used in a
-
-production environment.
-
-
+## 8. Disclaimer
+This application is **intentionally vulnerable** and created **strictly for academic and research purposes**.  
+Do **not** deploy or use it in production environments.
 
